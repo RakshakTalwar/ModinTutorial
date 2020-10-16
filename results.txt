@@ -1,0 +1,37 @@
+Results:
+Note, modin was used with ray backend as dask backend is experimental and buggy
+
+
+100KB
+
+Modin
+Time to read CSV file:	1.7
+Time to perform first computation:	0.58
+
+Pandas
+Time to read CSV file:	0.0037
+Time to perform first computation:	0.00096
+
+---------------------------------------------------
+
+100MB
+
+Modin
+Time to read CSV file:	1.1
+Time to perform first computation:	0.84
+
+Pandas
+Time to read CSV file:	1.5
+Time to perform first computation:	0.060
+
+---------------------------------------------------
+
+1GB
+
+Modin
+Time to read CSV file:	10
+Time to perform first computation:	20
+
+Pandas
+Time to read CSV file:	17
+Time to perform first computation:	0.57

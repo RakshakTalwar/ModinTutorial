@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas==1.1.2
+dask[complete]
+ray
+modin[all]==0.8.1.1
